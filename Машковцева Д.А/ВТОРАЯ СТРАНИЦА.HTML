@@ -1,0 +1,48 @@
+﻿<html>
+ <head>
+  <title>Цвета в таблице</title>
+  <style type="text/css">
+   body {
+    font-size: 0.5em; /* Размер текста */
+   }
+   table {
+    width: 60%; /* Ширина таблицы */
+   }
+   td { padding: 10px; }
+   td.col1 { background: #00FA9A; color: white; }
+   td.col2 { background: #FF00FF; color: gray; }
+   td.col3 { background: #00008B; }
+   td.col4 { background: #FF1493; color: white; }
+   td.col5 { background: #000000; color: gray; }
+   td.col6 { background: #0000FF; }
+.tooltip span{
+    border-radius: 5px 5px 5px 5px;
+    visibility: hidden;
+    position: absolute;
+    left: 200px;
+    background: #fff;
+    box-shadow: -2px 2px 10px -1px #333; 
+    border-radius: 5px;	
+}
+ 
+.tooltip:hover span{
+visibility: visible;
+}
+   </style>
+ </head>
+ <body>
+  <table cellspacing="0">
+   <tr>
+    <td class="col1"><a class="tooltip" href="#">Вкусно<span><img src="Вкусно.png" /></span></a></td>
+    <td class="col2"><a class="tooltip" href="#">Весело<span><img src="Весело.png"/></span></a></td></td>
+    <td class="col3"><a class="tooltip" href="#">Горькие слёзы<span><img src="Горькие слёзы.png"/></span></a></td>
+   </tr>
+    <tr>
+    <td class="col4"><a class="tooltip" href="#">Кривляние<span><img src="Кривляние.png"/></span></a></td>
+    <td class="col5"><a class="tooltip" href="#">Злость<span><img src="Злость.png"/></span></a></td>
+    <td class="col6"><a class="tooltip" href="#">Обида<span><img src="Обида.png"/></span></a></td>
+   </tr>
+  </table>
+<H1><A HREF="ТРЕТЬЯ СТРАНИЦА.HTML">Третий документ</A></H1>
+ </body>
+</html>
